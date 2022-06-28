@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Congelados Marcela </title>
+	<link rel="shortcout icon" href="img/favicon.png">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="Contain">
+	<nav id="navBar">
+		<a href="index.html">
+     <img src="img/logo.webp" alt="logo de congelados Marcela">
+     </a>
+
+     <ul>
+     	
+     	<li>
+     		<a href="views/productos.html">Productos</a>
+     	</li>
+     	<li>
+     		<a href="views/nosotros.html">Nosotros</a>
+     	</li>
+     	<li>
+     		<a href="#contacto">Contacto</a>
+     	</li>
+     	<li>
+     		<a href="views/preguntas frecuentes.html">Preguntas Frecuentes</a>
+     	</li>
+     	<li>
+     		<a href="views/envios.html">Zonas de Envios</a>
+     	</li>
+     </ul>
+	</nav>
+	<header id="Header">
+		
+	</header>
+	<h1 class="envTit" id="titone">¡Bienvenidos a Congelados Marcela!</h1>
+	<p class="texInd" id="text">Somos una familia que se dedica a los frutos y verduras congeladas. Te invitamos a que conozcas nuestros productos.</p>
+	<main id="main"> 
+		<!-- inicia form -->
+	 <section class="secPink" id="section">
+	 	<form action="envio.php" id="contacto">
+	 		<fieldset>
+	 			<legend>Informacion personal</legend>
+	 			<label for="name">Nombre</label>
+	 			<input type="text" id="name" placeholder="Santiago">
+	 			<br>
+	 			<label for="apellido">Apellido</label>
+	 			<input type="text" id="apellido" placeholder="Vazquez">
+	 			<br>
+	 			<label for="email">Email</label>
+	 			<input type="email" id="email" placeholder="santiago@coderhouse.com">
+	 			<br>
+	 			<label for="telefono">Telefono</label>
+	 			<input type="text" id="telefono" placeholder="1122447854">
+	 			<br>
+	 		</fieldset>
+	 		<fieldset>
+	 			<legend>Informacion de envio</legend>
+	 			<label for="local">Retiro en el local</label>
+	 			<input type="radio" id="local" name="envio" value="local">
+	 			<br>
+	 			<label for="domicilio">Envio a domicilio</label>
+	 			<input type="radio" id="domicilio" name="envio" value="domicilio">
+	 			<br>
+	 			<label for="">Localidad</label>
+	 			<select name="provincia" id="">
+	 				<option value="caba">CABA</option>
+	 				<option value="bsas">Buenos Aires</option>
+	 				<option value="cba">Cordoba</option>
+	 				<option value="interior">Otro</option>
+	 			</select>
+	 		</fieldset>
+	 		<fieldset>
+	 			<legend>Informacion de pedido</legend>
+	 			<label for="frutos rojos">Frutos rojos</label>
+	 			<input type="checkbox" id="Frutos rojos" value="Frutos rojos">
+	 			<br>
+	 			<label for="arandanos">Arandanos</label>
+	 			<input type="checkbox" id="arandanos" value="arandanos">
+	 			<br>
+	 			<label for="frutillas">Frutillas</label>
+	 			<input type="checkbox" id="frutillas" value="Frutillas">
+	 			<br>
+	 			<label for="moras">Moras</label>
+	 			<input type="checkbox" id="Moras" value="Moras">
+	 			<br>
+	 			<label for="frambuesas">Frambuesas</label>
+	 			<input type="checkbox" id="Moras" value="Moras">
+	 			<br>
+	 			<label for="franui">Frambuesas bañadas en chocolate</label>
+	 			<input type="checkbox" id="franui" value="Franui">
+	 			<br>
+	 			<br>
+	 			<label for="mensaje">Mensaje</label>
+	 		<br>
+	 		<textarea name="" id="mensaje" cols="30" rows="10"></textarea>
+	 		<input type="reset" value="Cancelar">
+	 		<input type="submit" value="Enviar">
+	 		</fieldset>
+	 		
+	 	</form>
+	 </section>
+	 <!-- termina form -->
+	 </main>
+	<footer class="pie" id="foTer">
+		<h2>Seguinos en nuestras redes</h2>
+		<a href="https://www.facebook.com/" target="_blank">
+			<img src="img/facebook.png" alt="Face" class="fbImg">
+			<a href="https://www.instagram.com/" target="_blank">
+			<img src="img/instagram.jpg" alt="Insta" class="fbImg">
+			</a>
+			<a href="https://www.twitter.com/" target="_blank">
+				<img src="img/twitter.png" alt="Twitter"
+				class="fbImg">
+			</a>
+		</a>
+	</footer>
+</body>
+</html>
